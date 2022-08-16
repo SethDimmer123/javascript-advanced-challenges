@@ -84,4 +84,9 @@ sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 // -Fireship
 
 // "Async Await Javascript ES7"
-// 
+// -Techsith (1.5x speed)
+
+// "Async JS Crash Course - Callbacks, Promises, Async Await"
+// -Traversy Media(1.5x speed)
+
+
