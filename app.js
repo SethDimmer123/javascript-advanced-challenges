@@ -26,4 +26,7 @@
 
 // Question 2. Sort by lowest to highest price
 
-// Given an array of numbers
+// Given an array of numbers, return the prices sorted by low to high.
+
+
+sortLowToHigh([])
