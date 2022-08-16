@@ -48,7 +48,7 @@ sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 
 
 
-// question 3. Sort by highest to lowest price
+// Question 3. Sort by highest to lowest price
 
 // Given an array of objects, return the prices sorted by high to low.
 
@@ -62,3 +62,26 @@ sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 /*--> {id:2,price:30},
 /*--> {id:3,price:60},
 /*--> {id:4,price:10},}]*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 4. Promises
+// On Youtube watch:
+
+// "The Async Await Episode I Promised"
+// -Fireship
+
+// "Async Await Javascript ES7"
+// 
