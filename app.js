@@ -48,3 +48,17 @@ sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 
 
 
+// question 3. Sort by highest to lowest price
+
+// Given an array of objects, return the prices sorted by high to low.
+
+ /*sortLowToHigh([
+    {id:1,price:50},
+    {id:2,price:30},
+    {id:3,price:60},
+    {id:4,price:10},
+])*/
+/*--> [{id:1,price:50},
+/*--> {id:2,price:30},
+/*--> {id:3,price:60},
+/*--> {id:4,price:10},}]*/
