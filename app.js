@@ -29,4 +29,22 @@
 // Given an array of numbers, return the prices sorted by low to high.
 
 
-sortLowToHigh([])
+sortLowToHigh([20,40,10,30,50,10]) -->[10,10,20,30,40,50]
+
+sortLowToHigh([5,10,0,-5]) --> [-5,0,5,10]
+
+sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
