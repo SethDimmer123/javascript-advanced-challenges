@@ -90,3 +90,46 @@ sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 // -Traversy Media(1.5x speed)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 5. Find all the posts by a single user.
+
+// call this API "https://jsonplaceholder.typicode.com/posts" and return all the posts by any given user Id.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 6. First 6 Incomplete Todos
+
+// Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result.
+
+
