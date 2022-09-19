@@ -96,6 +96,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 // Question 3. Sort by highest to lowest price
 
 // Given an array of objects, return the prices sorted by high to low.
