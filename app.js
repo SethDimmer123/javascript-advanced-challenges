@@ -133,20 +133,23 @@
 
 
 
-function sortHighToLow(numbers) {
-    return numbers.sort((a, b) => {
-        console.log(b.price, a.price)
-        return b.price - a.price
-});
-}
 
-console.log(
-    sortHighToLow([
-    { id: 1, price: 50 },
-    { id: 2, price: 0 },
-    { id: 3, price: -500 },
-  ])
-);
+// Answer down below
+
+// function sortHighToLow(numbers) {
+    // return numbers.sort((a, b) => {
+        // console.log(b.price, a.price)
+        // return b.price - a.price
+// });
+// }
+
+// console.log(
+    // sortHighToLow([
+    // { id: 1, price: 50 },
+    // { id: 2, price: 0 },
+    // { id: 3, price: -500 },
+//   ])
+// );
 
 
 
@@ -185,6 +188,8 @@ console.log(
 
 
 function postsByUser(userId) {
+    fetch("https://jsonplaceholder.typicode.com/posts")
+    .then(res => console.log(res))
     console.log(userId)
 }
 
