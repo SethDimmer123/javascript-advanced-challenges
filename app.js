@@ -18,6 +18,31 @@
 
 
 
+function showRating(rating){
+    let ratings = "";
+    for (let i = 0; i < Math.floor(rating); ++i){
+        ratings += ratings + "*"
+        if(i !== Math.floor(rating) - 1) {
+            ratings += ratings + " "
+        }
+    }
+    if(!Number.isInteger(ratings)) {
+        ratings += " .";
+    }
+    return ratings;
+}
+
+console.log(showRating(3.5));
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,11 +54,11 @@
 // Given an array of numbers, return the prices sorted by low to high.
 
 
-sortLowToHigh([20,40,10,30,50,10]) -->[10,10,20,30,40,50]
+// sortLowToHigh([20,40,10,30,50,10]) -->[10,10,20,30,40,50]
 
-sortLowToHigh([5,10,0,-5]) --> [-5,0,5,10]
+// sortLowToHigh([5,10,0,-5]) --> [-5,0,5,10]
 
-sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
+// sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 
 
 
