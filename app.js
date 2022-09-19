@@ -179,9 +179,17 @@ console.log(
 
 // Question 5. Find all the posts by a single user.
 
-// call this API "https://jsonplaceholder.typicode.com/posts" and return all the posts by any given user Id.
+// call this API "https://jsonplaceholder.typicode.com/posts" 
+// and return all the posts by any given user Id.
 
 
+
+function postsByUser(userId) {
+    console.log(userId)
+}
+
+
+postsByUser(4);
 
 
 
