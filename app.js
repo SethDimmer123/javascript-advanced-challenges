@@ -10,7 +10,11 @@
 
 
 
+function showRating(rating){
+    // intialise an empty string
+}
 
+console.log(showRating(3.5));
 
 
 
