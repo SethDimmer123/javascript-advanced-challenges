@@ -10,11 +10,25 @@
 
 
 
-function showRating(rating){
+// function showRating(rating){
     // intialise an empty string
-}
 
-console.log(showRating(3.5));
+    // loop through the rounded down rating
+
+    // add a star for every interation
+
+    // if its not the last iteration add a space
+
+    // if the number is not an integer
+
+    // add a full stop
+
+    // return it
+
+    // solve with google 11:29
+// }
+
+// console.log(showRating(3.5));
 
 
 
@@ -96,6 +110,10 @@ console.log(showRating(3.5));
 /*--> {id:2,price:30},
 /*--> {id:3,price:60},
 /*--> {id:4,price:10},}]*/
+
+
+
+
 
 
 
