@@ -188,11 +188,11 @@
 
 
  async function postsByUser(userId) {
-    const promise = await fetch("https://jsonplaceholder.typicode.com/posts")
-    console.log(await promise.json());
+    const promise = await fetch("https://jsonplaceholder.typicode.com/posts");
+    
+    const result = await promise.json()
 
-
-const result = await promise.json()
+    result.filter(element => element.userId === userId)
  }
 
 postsByUser(4);
