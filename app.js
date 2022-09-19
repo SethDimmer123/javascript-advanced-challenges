@@ -187,16 +187,34 @@
 
 
 
-function postsByUser(userId) {
-    fetch("https://jsonplaceholder.typicode.com/posts")
-    .then(res => console.log(res))
-    console.log(userId)
-}
+ async function postsByUser(userId) {
+    const promise = await fetch("https://jsonplaceholder.typicode.com/posts")
+    console.log(await promise.json());
 
+
+const result = await promise.json()
+ }
 
 postsByUser(4);
 
 
+// async goes next to the function
+// await goes inside the function
+
+// that is how you wait for the result
+
+
+
+/** Whenever using fetch i need to understand i need to convert it to something
+ * that javascript can read convert it to json 
+ * 
+ * 
+ * when using fetch it returns all backend stuff that
+ * frontend does not understand
+ * 
+ * so inorder to convert the language from (chinese to english)
+ * 
+ * what we need to do is convert it from backend to json*/ 
 
 
 
