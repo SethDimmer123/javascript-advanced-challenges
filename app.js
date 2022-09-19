@@ -134,14 +134,17 @@
 
 
 function sortHighToLow(numbers) {
-    return numbers.sort((a, b) => a - b);
+    return numbers.sort((a, b) => {
+        console.log(b.price, a.price)
+        return b.price - a.price
+});
 }
 
 console.log(
     sortHighToLow([
     { id: 1, price: 50 },
     { id: 2, price: 0 },
-    { id: 3, price: 500 },
+    { id: 3, price: -500 },
   ])
 );
 
@@ -156,22 +159,6 @@ console.log(
 
 
 
-
-
-
-
-
-// Question 4. Promises
-// On Youtube watch:
-
-// "The Async Await Episode I Promised"
-// -Fireship
-
-// "Async Await Javascript ES7"
-// -Techsith (1.5x speed)
-
-// "Async JS Crash Course - Callbacks, Promises, Async Await"
-// -Traversy Media(1.5x speed)
 
 
 
