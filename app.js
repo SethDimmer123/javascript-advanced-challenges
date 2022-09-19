@@ -207,6 +207,13 @@ postsByUser(4);
 
 
 
+
+
+
+
+
+
+
 /** Whenever using fetch i need to understand i need to convert it to something
  * that javascript can read convert it to json 
  * 
