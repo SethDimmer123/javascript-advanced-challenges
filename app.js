@@ -11,21 +11,21 @@
 
 
 // function showRating(rating){
-    // intialise an empty string
+// intialise an empty string
 
-    // loop through the rounded down rating
+// loop through the rounded down rating
 
-    // add a star for every interation
+// add a star for every interation
 
-    // if its not the last iteration add a space
+// if its not the last iteration add a space
 
-    // if the number is not an integer
+// if the number is not an integer
 
-    // add a full stop
+// add a full stop
 
-    // return it
+// return it
 
-    // solve with google 11:29
+// solve with google 11:29
 // }
 
 // console.log(showRating(3.5));
@@ -86,11 +86,11 @@
 
 // Answer down below
 
-function sortLowToHigh(numbers) {
-    return numbers.sort();
-}
+// function sortLowToHigh(numbers) {
+//     return numbers.sort((a,b) =>  a - b);
+// }
 
-console.log(sortLowToHigh([1, 5, 0, 10, 4]))
+// console.log(sortLowToHigh([1, 5, 0, 10, 4]))
 
 // google how to sort an array of numbers in javascript(12:46)
 
@@ -120,11 +120,11 @@ console.log(sortLowToHigh([1, 5, 0, 10, 4]))
 
 // Given an array of objects, return the prices sorted by high to low.
 
- /*sortLowToHigh([
-    {id:1,price:50},
-    {id:2,price:30},
-    {id:3,price:60},
-    {id:4,price:10},
+/*sortLowToHigh([
+   {id:1,price:50},
+   {id:2,price:30},
+   {id:3,price:60},
+   {id:4,price:10},
 ])*/
 /*--> [{id:1,price:50},
 /*--> {id:2,price:30},
@@ -132,6 +132,18 @@ console.log(sortLowToHigh([1, 5, 0, 10, 4]))
 /*--> {id:4,price:10},}]*/
 
 
+
+function sortHighToLow(numbers) {
+    return numbers.sort((a, b) => a - b);
+}
+
+console.log(
+    sortHighToLow([
+    { id: 1, price: 50 },
+    { id: 2, price: 0 },
+    { id: 3, price: 500 },
+  ])
+);
 
 
 
