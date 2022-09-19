@@ -84,6 +84,17 @@
 // sortLowToHigh([3,2,1,0]) -->[0,1,2,3]
 
 
+// Answer down below
+
+function sortLowToHigh(numbers) {
+    return numbers.sort();
+}
+
+console.log(sortLowToHigh([1, 5, 0, 10, 4]))
+
+// google how to sort an array of numbers in javascript(12:46)
+
+
 
 
 
