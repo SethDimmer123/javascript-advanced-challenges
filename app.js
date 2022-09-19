@@ -244,3 +244,13 @@ postsByUser(4);
 // Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result.
 
 
+async function firstSixIncomplete(userId) {
+    const promise = await fetch("https://jsonplaceholder.typicode.com/todos");
+
+    const result = await promise.json()
+
+    const incompleteTasks = result.filter(elem => elem.completed);
+    console.log(incompleteTasks);
+}
+
+firstSixIncomplete(6);
