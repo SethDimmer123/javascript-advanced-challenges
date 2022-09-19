@@ -192,7 +192,9 @@
     
     const result = await promise.json()
 
-    result.filter(element => element.userId === userId)
+    const posts = result.filter(element => element.userId === userId)
+
+    console.log(posts)
  }
 
 postsByUser(4);
