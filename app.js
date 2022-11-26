@@ -8,8 +8,16 @@
 
 // showRating(0.5) -->"." 
 
+/* < less than */
 
 
+
+
+// function showRating(rating) {
+
+// }
+
+// console.log(showRating(3));
 
 
 
@@ -55,7 +63,11 @@
 // Answer down below
 
 
+function sortLowToHigh(numbers) {
+    return number.sort((a, b) => a - b);
+}
 
+console.log(sortLowToHigh([1,5,0,10,4]))
 
 
 
@@ -181,13 +193,13 @@
 // Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result.
 
 
-async function firstSixIncomplete(userId) {
-    const promise = await fetch("https://jsonplaceholder.typicode.com/todos");
+// async function firstSixIncomplete(userId) {
+//     const promise = await fetch("https://jsonplaceholder.typicode.com/todos");
 
-    const result = await promise.json()
+//     const result = await promise.json()
 
-    const incompleteTasks = result.filter(elem => elem.completed);
-    console.log(incompleteTasks);
-}
+//     const incompleteTasks = result.filter(elem => elem.completed);
+//     console.log(incompleteTasks);
+// }
 
-firstSixIncomplete(6);
+// firstSixIncomplete(6);
