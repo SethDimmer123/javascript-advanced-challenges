@@ -10,25 +10,6 @@
 
 
 
-// function showRating(rating){
-// intialise an empty string
-
-// loop through the rounded down rating
-
-// add a star for every interation
-
-// if its not the last iteration add a space
-
-// if the number is not an integer
-
-// add a full stop
-
-// return it
-
-// solve with google 11:29
-// }
-
-// console.log(showRating(3.5));
 
 
 
@@ -38,24 +19,11 @@
 
 
 
-// ANSWER DOWN BELOW
 
 
-// function showRating(rating){
-//     let ratings = "";
-//     for (let i = 0; i < Math.floor(rating); ++i){
-//         ratings += "*"
-//         if(i !== Math.floor(rating) - 1) {
-//             ratings += " ";
-//         }
-//     }
-//     if(!Number.isInteger(rating)) {
-//         ratings += " .";
-//     }
-//     return ratings;
-// }
 
-// console.log(showRating(3.5));
+
+
 
 
 
@@ -86,13 +54,6 @@
 
 // Answer down below
 
-// function sortLowToHigh(numbers) {
-//     return numbers.sort((a,b) =>  a - b);
-// }
-
-// console.log(sortLowToHigh([1, 5, 0, 10, 4]))
-
-// google how to sort an array of numbers in javascript(12:46)
 
 
 
@@ -136,20 +97,7 @@
 
 // Answer down below
 
-// function sortHighToLow(numbers) {
-    // return numbers.sort((a, b) => {
-        // console.log(b.price, a.price)
-        // return b.price - a.price
-// });
-// }
 
-// console.log(
-    // sortHighToLow([
-    // { id: 1, price: 50 },
-    // { id: 2, price: 0 },
-    // { id: 3, price: -500 },
-//   ])
-// );
 
 
 
@@ -187,17 +135,15 @@
 
 
 
- async function postsByUser(userId) {
-    const promise = await fetch("https://jsonplaceholder.typicode.com/posts");
-    
-    const result = await promise.json()
 
-    const posts = result.filter(element => element.userId === userId)
 
-    console.log(posts)
- }
 
-postsByUser(4);
+
+
+
+
+
+
 
 
 // async goes next to the function
@@ -214,16 +160,7 @@ postsByUser(4);
 
 
 
-/** Whenever using fetch i need to understand i need to convert it to something
- * that javascript can read convert it to json 
- * 
- * 
- * when using fetch it returns all backend stuff that
- * frontend does not understand
- * 
- * so inorder to convert the language from (chinese to english)
- * 
- * what we need to do is convert it from backend to json*/ 
+
 
 
 
