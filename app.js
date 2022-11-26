@@ -64,7 +64,7 @@
 
 
 function sortLowToHigh(numbers) {
-    return number.sort((a, b) => a - b);
+    return numbers.sort((a, b) => a - b);
 }
 
 console.log(sortLowToHigh([1,5,0,10,4]))
@@ -72,7 +72,11 @@ console.log(sortLowToHigh([1,5,0,10,4]))
 
 
 
+// sorting sorts alphabetically
 
+// if i want to sort by numbers
+
+// do this a, b => a - b
 
 
 
