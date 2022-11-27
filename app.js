@@ -14,10 +14,14 @@
 
 
 function showRating(rating) {
-    
+    let ratings = ""
+    for(let i = 0; i < 4; ++i) {
+        ratings = ratings + "* "
+    }
+    return ratings;
 }
 
-console.log(showRating(3));
+console.log(showRating(4));
 
 
 
@@ -63,11 +67,11 @@ console.log(showRating(3));
 // Answer down below
 
 
-function sortLowToHigh(numbers) {
-    return numbers.sort((a, b) => a - b);
-}
+// function sortLowToHigh(numbers) {
+//     return numbers.sort((a, b) => a - b);
+// }
 
-console.log(sortLowToHigh([1,5,0,10,4]))
+// console.log(sortLowToHigh([1,5,0,10,4]))
 
 
 
