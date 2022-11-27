@@ -15,8 +15,11 @@
 
 function showRating(rating) {
     let ratings = ""
-    for(let i = 0; i < 4; ++i) {
-        ratings = ratings + "* "
+    for(let i = 0; i < rating; ++i) {
+        ratings = ratings + "*"
+        if(i !== 3) {
+            ratings  = ratings + " "
+        }
     }
     return ratings;
 }
