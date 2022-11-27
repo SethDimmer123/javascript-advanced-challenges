@@ -108,16 +108,16 @@
 
 // Given an array of objects, return the prices sorted by high to low.
 
-/*sortLowToHigh([
-   {id:1,price:50},
-   {id:2,price:30},
-   {id:3,price:60},
-   {id:4,price:10},
-])*/
-/*--> [{id:1,price:50},
-/*--> {id:2,price:30},
-/*--> {id:3,price:60},
-/*--> {id:4,price:10},}]*/
+// sortLowToHigh([
+//    {id:1,price:50},
+//    {id:2,price:30},
+//    {id:3,price:60},
+//    {id:4,price:10},
+// ])
+// --> [{id:1,price:50},
+// --> {id:2,price:30},
+// --> {id:3,price:60},
+// --> {id:4,price:10},}]
 
 
 
@@ -125,7 +125,23 @@
 // Answer down below
 
 
+// function sortHighToLow(numbers) {
+//     return numbers.sort((a,b) => {
+//         return b.price - a.price
+//     });
+// }
 
+// console.log(sortHighToLow([
+//     { id: 1, price: 50 },
+//     { id: 2, price: 0 },
+//     { id: 3, price: 500 }
+// ])
+// );
+
+// sorting objects in an array is the exact same thing as question 2
+
+// BUT I NEED TO GET THE PROPERTY OF THAT OBJECT that i am 
+// iterating over
 
 
 
