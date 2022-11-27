@@ -13,11 +13,11 @@
 
 
 
-// function showRating(rating) {
+function showRating(rating) {
+    
+}
 
-// }
-
-// console.log(showRating(3));
+console.log(showRating(3));
 
 
 
