@@ -176,17 +176,17 @@
 // call this API "https://jsonplaceholder.typicode.com/posts" 
 // and return all the posts by any given user Id.
 
-async function postsByUser(userId) {
-    const promise = await fetch("https://jsonplaceholder.typicode.com/posts")
+// async function postsByUser(userId) {
+//     const promise = await fetch("https://jsonplaceholder.typicode.com/posts")
 
-    const result = await promise.json()
+//     const result = await promise.json()
 
-    const posts = result.filter(element => console.log(element.userId === userId))
+//     const posts = result.filter(element => element.userId === userId)
 
-    console.log(posts)
-}
+//     console.log(posts)
+// }
 
-postsByUser(4)
+// postsByUser(6)
 
 
 
@@ -233,3 +233,14 @@ postsByUser(4)
 // Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result.
 
 
+async function firstSixIncomplete(userId) {
+        const promise = await fetch("https://jsonplaceholder.typicode.com/todos")
+
+    const result = await promise.json()
+
+    const incompleteTasks = result.filter(element => !element.completed).slice(0,6);
+
+    console.log(incompleteTasks);
+}
+
+firstSixIncomplete(6)
