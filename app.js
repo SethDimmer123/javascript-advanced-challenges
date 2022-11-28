@@ -233,14 +233,14 @@
 // Call this API "https://jsonplaceholder.typicode.com/todos" and return the first 6 incomplete todo's from the result.
 
 
-async function firstSixIncomplete(userId) {
-        const promise = await fetch("https://jsonplaceholder.typicode.com/todos")
+// async function firstSixIncomplete(userId) {
+//         const promise = await fetch("https://jsonplaceholder.typicode.com/todos")
 
-    const result = await promise.json()
+//     const result = await promise.json()
 
-    const incompleteTasks = result.filter(element => !element.completed).slice(0,6);
+//     const incompleteTasks = result.filter(element => !element.completed).slice(0,6);
 
-    console.log(incompleteTasks);
-}
+//     console.log(incompleteTasks);
+// }
 
-firstSixIncomplete(6)
+// firstSixIncomplete(6)
