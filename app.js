@@ -176,8 +176,12 @@
 // call this API "https://jsonplaceholder.typicode.com/posts" 
 // and return all the posts by any given user Id.
 
+async function postsByUser(userId) {
+    const promise = await fetch("https://jsonplaceholder.typicode.com/posts")
+    console.log(await promise.json())
+}
 
-
+postsByUser(4)
 
 
 
